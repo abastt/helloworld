@@ -8,7 +8,7 @@ WORKDIR ${HOME}/base
 ENV PATH=${HOME}/.pyenv/shims:${HOME}/.pyenv/bin:$PATH
 
 # Application
-COPY requirements.txt .
+COPY base/requirements.txt .
 RUN pip install -U setuptools && pip install -r requirements.txt
 
 COPY base ./
