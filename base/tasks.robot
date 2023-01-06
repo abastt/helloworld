@@ -8,7 +8,7 @@ Resource        keywords/keywords.robot
 
 *** Keywords ***
 Example Keyword
-    Open Browser     http://elpais.com/    Chrome 
+    Open Browser     http://gmail.com/    Chrome 
     Log    HOLAMUNDO    level=WARN
 
 
