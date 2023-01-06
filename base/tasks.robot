@@ -15,7 +15,7 @@ Example Keyword
 *** Tasks ***
 Example Task
     Example Keyword
-    Sleep    20
+    BuiltIn.Sleep    20
     Example Python Keyword
     Example Robot Keyword
 
