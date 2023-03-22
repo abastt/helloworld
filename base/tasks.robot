@@ -9,7 +9,7 @@ Resource        keywords/keywords.robot
 *** Keywords ***
 Example Keyword
     Open Browser     http://google.com/    Chrome 
-    Log    ${andres}    level=WARN
+    Log    ${sec}    level=WARN
     Log    HOLAMUNDO    level=WARN
 
 
