@@ -1,5 +1,6 @@
 from time import sleep
 import os
+from decouple import config
 from robot.api import logger
 
 def get_environment(var):
