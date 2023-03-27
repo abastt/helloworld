@@ -1,9 +1,9 @@
 from time import sleep
-from decouple import config
+import os
 from robot.api import logger
 
 def get_environment(var):
-    return config(var)
+    return os.getenv(var)
 
 
 def example_python_keyword():
