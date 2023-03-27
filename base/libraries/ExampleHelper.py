@@ -3,7 +3,11 @@ import os
 from robot.api import logger
 
 def get_environment(var):
-    return os.getenv(var)
+    def get_environment(var):
+    env = os.getenv(var)
+    if env is None:
+        return config(var)
+    return env
 
 
 def example_python_keyword():
