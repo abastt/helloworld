@@ -10,7 +10,7 @@ Resource        keywords/keywords.robot
 *** Keywords ***
 Example Keyword
     Open Browser     http://google.com/    Chrome 
-        ${sec}    Get Environment Variable    sec
+    ${sec}    Get Environment Variable    sec
     Log    ${sec}    level=WARN
     Log    HOLAMUNDO    level=WARN
 
