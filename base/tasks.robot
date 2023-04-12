@@ -17,8 +17,8 @@ Example Keyword
 
 *** Tasks ***
 Example Task
-    ${env}    Get Environment    sec
-    Log    ${env}    level=WARN
+    #${env}    Get Environment    sec
+    #Log    ${env}    level=WARN
     Example Keyword
     BuiltIn.Sleep    20
     Example Python Keyword
