@@ -20,7 +20,7 @@ Example Task
     #${env}    Get Environment    sec
     #Log    ${env}    level=WARN
     Example Keyword
-    BuiltIn.Sleep    1800
+    BuiltIn.Sleep    60
     Example Python Keyword
     Example Robot Keyword
 
