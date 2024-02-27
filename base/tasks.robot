@@ -1,11 +1,9 @@
 *** Settings ***
 
-Documentation   Script para abrir el sitio web www.montevideo.com.uy por 5 segundos
-Library         SeleniumLibrary
+Library           SeleniumLibrary
 
 *** Test Cases ***
-Abrir Sitio Web Montevideo
-    Open Browser    https://www.montevideo.com.uy    Chrome
-    Sleep    5s
-    Capture Page Screenshot
-    Close Browser
+
+Abrir El Pais
+    Open Browser  https://www.elpais.com  chrome
+    Sleep           5s
