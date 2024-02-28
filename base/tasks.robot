@@ -1,9 +1,15 @@
 *** Settings ***
 
-Library           SeleniumLibrary
+Library    SeleniumLibrary
+
+*** Variables ***
+
+${BROWSER}    Chrome
+${URL}    https://www.elpais.com
 
 *** Test Cases ***
 
-Abrir El Pais
-    Open Browser    https://elpais.com    chrome
+Abrir y Cerrar elpais.com
+    Open Browser    ${URL}    ${BROWSER}
     Sleep    5s
+    Close Browser
